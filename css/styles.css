@@ -59,6 +59,7 @@ body {
     --primary-white-color:#FFFFFF;
     --primary-button-color:#404BBF;
     --primary-button-background: #F4F4FD;
+    --primary-border-color:#E7E9FC;
 }
 
 .link-logo{
@@ -135,6 +136,9 @@ text-decoration: none;
     background-color: var(--primary-dark-color);
     text-align: center;
     margin: o auto;
+max-width: 496px;
+margin-left:472px ;
+margin-left: 472px;
 
 }
 
@@ -150,6 +154,7 @@ text-decoration: none;
     padding: 16px 32px;
     border-bottom: 2px solid black;
     border-radius: 5%;
+   margin-top: 48px;
 }
 
 .hero-button:hover, .hero-button:focus{
@@ -255,6 +260,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color:var(--primary-button-background);
     background-color: var(--primary-dark-color);
+    width: 264px;
 }
 
 .button-portfolio {
@@ -267,26 +273,62 @@ text-decoration: none;
   cursor: pointer;
  font-family: "Roboto", sans-serif;
 }
-
+.all{
+    background-color: var(--primary-button-color);
+    color: var(--primary-white-color);
+}
 .button-portfolio:hover, .button-portfolio:focus{
     color:var(--primary-white-color);
     background-color:var(--primary-button-color);
 }
-.button-portfolio{
-    padding:12px 24px:
+
+.button-list{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 96px;
+   gap: 12px;
+   max-width: 586px;
+   padding-left: 427px;
+   padding-right: 427px;
+   
 }
+.button-list .button-portfolio{
+border: 1px solid var(--primary-button-background);
+padding: 16px 24px;
+border-radius: 5%;
+
+}
+.card-images{
+    display:flex;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+    width: 360px;
+    border: 1px solid var(--primary-border-color);
+    margin-bottom: 48px;
+}
+
 .card-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--primary-dark-color);
+        padding-top: 32px;
+
 }
 
+.card-list{
+    margin-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
+    padding-bottom: 32px;
 }
