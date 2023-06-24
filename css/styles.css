@@ -187,7 +187,7 @@ body {
 }
 
 .visually-hidden{
-    visibility: hidden;
+    opacity: 0;
 }
 
 .features-section .list {
@@ -322,8 +322,8 @@ width: calc((100% - 72px) / 4);
  background-color: var(--primary-button-background);
   cursor: pointer;
  font-family: "Roboto", sans-serif;
-padding: 12px 24px;
-border: 1px solid #e7e9fc;
+ padding: 12px 24px 12px;
+ border: 1px solid #e7e9fc;
 }
 
 .button-portfolio:hover, .button-portfolio:focus{
@@ -373,6 +373,7 @@ border: 1px solid #e7e9fc;
         letter-spacing: 0.02em;
         color:var(--primary-dark-color);
         padding-top: 32px;
+        margin-bottom: 8px;
 
 }
 
