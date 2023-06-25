@@ -31,8 +31,6 @@ ol {
     padding: 0 15px;
 }
 .header {
-   padding-top: 24px;
-   padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 img{
@@ -145,7 +143,7 @@ body {
     background-color:var(--primary-dark-color);
     text-align: center;
     padding: 188px 0 188px;
-    margin-bottom: 120px;
+
 }
 .hero-section-title {
     font-family: 'Roboto';
@@ -157,10 +155,9 @@ body {
     color: var(--primary-white-color);
     background-color: var(--primary-dark-color);
     text-align: center;
-    margin: o auto;
+    margin: 0 auto;
     display: flex;
     max-width: 496px;
-    margin-left: 472px;
 
 }
 
@@ -177,12 +174,9 @@ body {
     border-bottom: 2px solid black;
     border-radius: 4px;
     border: none;
-    margin-top: 48px;
+    margin: 0 auto;
     display: block;
-    min-width: 169px;
-    height: 56px;
-    margin-left: 635.5px;
-    margin-right: 635.5px;
+    margin-top: 48px;
 }
 
 .hero-button:hover, .hero-button:focus{
@@ -227,7 +221,7 @@ width: calc((100% - 72px) / 4);
     gap: 24px;
 }
 
-.doing-section-title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -271,6 +265,7 @@ width: calc((100% - 72px) / 4);
 
 .employee-name{
     padding: 32px 16px;
+    background-color: var(--primary-white-color);
 }
 .team-description {
     font-weight: 400;
@@ -279,8 +274,6 @@ width: calc((100% - 72px) / 4);
     color: var(--primary-black-color);
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 32px;
 }
 
 .footer{
@@ -291,7 +284,6 @@ width: calc((100% - 72px) / 4);
 .footer-studio{
     color:#f4f4fd;
     display: inline-block;
-    margin-bottom: 16px;
 }
 .link-logo-footer{
     color: var(--primary-blue-color);
@@ -341,20 +333,13 @@ width: calc((100% - 72px) / 4);
     background-color:var(--primary-button-color);
 }
 
-.filters{
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
+
 .button-list{
     display: flex;
    justify-content: center;
    margin-top: 96px;
    gap: 24px;
-   max-width: 586px;
-   padding-left: 427px;
-   padding-right: 427px;
-   margin-bottom: 72px;
-   
+
 }
 
 .button-list .button-portfolio:hover, .button-list .button-portfolio:focus{
@@ -367,7 +352,6 @@ width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
     width: 360px;
     border: 1px solid var(--primary-border-color);
-    margin-bottom: 48px;
 }
 
 .card-title {
@@ -376,7 +360,6 @@ width: calc((100% - 72px) / 4);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--primary-dark-color);
-        padding-top: 32px;
         margin-bottom: 8px;
 
 }
@@ -388,6 +371,7 @@ width: calc((100% - 72px) / 4);
     justify-content: space-between;
     column-gap: 24px;
     row-gap: 48px;
+    margin-bottom: 120px;
 }
 .card-text {
     font-weight: 400;
@@ -395,12 +379,11 @@ width: calc((100% - 72px) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
-    padding-bottom: 32px;
+ 
 }
 
 .card-name{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
