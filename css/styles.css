@@ -77,6 +77,10 @@ img{
     padding: 24px 0;
 }
 
+.list {
+    list-style: none;
+}
+
 .link-logo:hover, .link-logo:focus {
     color: var(--primary-button-color);
     background-color: var(--primary-button-color);
@@ -92,9 +96,6 @@ img{
 }
 .header-adress {
     font-style: normal;
-}
-.list {
-    list-style: none;
 }
 
 .pages-link {
